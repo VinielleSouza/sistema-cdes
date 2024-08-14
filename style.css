@@ -2,18 +2,6 @@
 *{margin: 0; padding: 0;}
 
 body{
-    
-
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-
-
 
 }
 
@@ -23,12 +11,20 @@ header{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #2F9E41 ;
-    
 }
 
 header img{
-    width: 6em;
-    
+    width: 6em; 
+}
+
+/*Alteração da ordem para header - section, para manter a lógica da página html*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
 section form{
@@ -50,8 +46,8 @@ form{
     height: 100px;
     background-color: #dddddd;
     box-shadow:  10px 10px 20px #a1a1a1;
-   
-
+    margin: auto;
+/* Adição do margin: auto para centralizar no meio da página, depois da passagem do header pra fora da section   */
 }
 
 form img{
@@ -59,6 +55,11 @@ form img{
     width: 8em;
 
 }
+
+link{
+    text-decoration: none;
+}
+
 h1{
     font-size: 1em;
     text-align: center;
@@ -75,12 +76,11 @@ form button{
     font-size: 15px;
     font-family: "Open Sans bold", sans-serif;
     width: 100px;
-
 }
 
+/*Configurar o link do botão*/
 
 .logo-in{
-
 
 }
 
@@ -90,8 +90,6 @@ form button{
     font-family: "Open Sans", sans-serif;
     border-radius: 5px;
     width: 310px;    
-
-
 }
 
 footer{
@@ -105,8 +103,8 @@ footer{
     font-family: "Open Sans", sans-serif;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    
 }
+
 p{
 
 }

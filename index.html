@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IFB - Coordenação de Estágio</title>
-    <link rel="icon" href="img//ico-ifb.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IFB - Coordenação de Estágio</title>
+        <link rel="icon" href="img//ico-ifb.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<!-- Alteração nas páginas para fazer/melhorar a identação -->
+    <body>
+
         <header>
-            <a href="#"><img src="img/logo branca.png" alt="Logo Instituto Federal de Brasília"></a>
-            
+            <a href="#"><img src="img/logo branca.png" alt="Logomarca do Instituto Federal de Brasília na cor branca"></a>
         </header>
-        <form>
-            <img class="logo-in" src="img/ifb-logo.png" alt="">
-            <h1>COORDENAÇÃO DE ESTÁGIO</h1>
-            <input class="login" type="number"  name="login"  placeholder="Matrícula do Servidor" pattern="[0-9]" required>
-            <!-- Ver qual o padrão das matrículas dos servidores, se é composto apenas por algarismos -->
-            <input class="login"  type="password" name="login" required placeholder="Senha">
-            <button type="submit">Entrar</button>
-        </form>
-        <footer><p>Desenvolvido por Pedro Simão, Sandro Nunes e Vinielle Souza | 2024</p></footer>
 
-    </section>
+        <section>
+            <form>
+                <img class="logo-in" src="img/ifb-logo.png" alt="">
+                <h1>COORDENAÇÃO DE ESTÁGIO</h1>
+                <!-- Acho que aqui poderia ser um h2 -->
+                <input class="login" type="number"  name="login"  placeholder="Matrícula do Servidor" pattern="[0-9]" required>
+                <!-- Ver qual o padrão das matrículas dos servidores, se é composto apenas por algarismos -->
+                <!-- Checar como retirar o seletor no campo de matrícula -->
+                <input class="login"  type="password" name="login" required placeholder="Senha">
+                <button type="submit"> <a href="inicio.html" target="blank"> Entrar </a> </button>
+            </form>
+        </section>
 
-</body>
+         <footer><p>Desenvolvido por Pedro Simão, Sandro Nunes e Vinielle Souza | 2024</p>
+         </footer>
+            <!--  Inserir links nos nomes dos alunos para redirecionar a uma página da escolha, como LinkedIn -->
+    </body>
 </html>
