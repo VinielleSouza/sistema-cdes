@@ -56,9 +56,12 @@ form img{
 
 }
 
-link{
+a{
     text-decoration: none;
+    color: #fff
 }
+
+/*Configurar o link do botão*/
 
 h1{
     font-size: 1em;
@@ -77,8 +80,6 @@ form button{
     font-family: "Open Sans bold", sans-serif;
     width: 100px;
 }
-
-/*Configurar o link do botão*/
 
 .logo-in{
 
